@@ -1,11 +1,12 @@
 {
-    "manifest_version": 3,
-    "name": "FB_Post_ID_Grabber",
-    "version": "1.0.0",
-    "content_scripts": [
-        {
-            "matches": ["*://business.facebook.com/*"],
-            "js": ["grabber.js"]
-        }
-    ]
+  "manifest_version": 3,
+  "name": "FB Post ID Grabber",
+  "version": "1.0.0",
+  "description": "get an alert with the Post ID of the current post when viewing the facebook post with comments page",
+  "content_scripts": [
+    {
+      "matches": ["*://business.facebook.com/*"],
+      "js": ["grabber.js"]
+    }
+  ]
 }
