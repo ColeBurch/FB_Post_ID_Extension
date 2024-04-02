@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 1,
   "name": "FB Post ID Grabber",
   "version": "1.0.0",
   "description": "get an alert with the Post ID of the current post when viewing the facebook post with comments page",
